@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "dev": "npm start"
+    "dev": "npm start",
+    "build": "parcel build index.html --public-url /"
   },
   "keywords": [
     "乡村基"
@@ -14,8 +15,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "less": "^3.0.2",
+    "autoprefixer": "^8.3.0",
     "babel-preset-env": "^1.6.1",
+    "less": "^3.0.2",
     "parcel-bundler": "^1.7.1",
     "parcel-plugin-vue": "^1.5.0"
   },

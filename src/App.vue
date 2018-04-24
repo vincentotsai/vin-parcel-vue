@@ -13,9 +13,14 @@ export default {
   }
 }
 </script>
-<style lang="less">
+<style lang="less" scoped>
 .app {
   color: red;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  background: gray;
+  box-sizing:border-box;
 }
 </style>
 
